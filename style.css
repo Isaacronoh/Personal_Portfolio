@@ -418,7 +418,113 @@ nav a:hover {
 
 .logo-img {
   height: 70px;
-  width: auto;
+  width: 70px;
   margin-right: 10px;
   border-radius: 50%; 
+}
+
+
+/* responsiveness */
+
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .grad-image img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-content {
+    flex: 1 1 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .hero h3 {
+    font-size: 1.2em;
+  }
+
+  .languages ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .timeline {
+    padding-left: 10px;
+  }
+
+  .timeline-dot {
+    left: -8px;
+  }
+
+  .timeline-content {
+    font-size: 0.95rem;
+  }
+
+  .interests h1 {
+    font-size: 2rem;
+  }
+
+  .card img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .logo a {
+    justify-content: center;
+  }
+
+  .logo-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .contact-form {
+    padding: 0 10px;
+  }
+
+  .contact-form .btn {
+    width: 100%;
+  }
+
+  .about-content p,
+  .desc {
+    font-size: 0.95rem;
+  }
 }
