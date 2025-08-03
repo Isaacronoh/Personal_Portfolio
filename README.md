@@ -6,7 +6,7 @@ Welcome to my personal portfolio project — a showcase of who I am, what I do, 
 
 ## 🔗 Live Preview
 
-> [👉 View My Portfolio](https://your-live-site-link-here.com)  
+> [👉 View My Portfolio](https://isaacronoh.github.io/Personal_Portfolio/)  
 *(Replace with your actual GitHub Pages or hosting URL)*
 
 ---
