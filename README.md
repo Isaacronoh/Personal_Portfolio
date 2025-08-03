@@ -6,8 +6,7 @@ Welcome to my personal portfolio project — a showcase of who I am, what I do, 
 
 ## 🔗 Live Preview
 
-> [👉 View My Portfolio](https://your-live-site-link-here.com)  
-*(Replace with your actual GitHub Pages or hosting URL)*
+> [👉 View My Portfolio](https://isaacronoh.github.io/Personal_Portfolio/)  
 
 ---
 
@@ -96,8 +95,4 @@ You can download my latest resume from the site:
 
 The entire website is built with mobile-first principles. It is fully responsive and adjusts elegantly across desktops, tablets, and smartphones.
 
----
 
-## ✅ How to Use
-
-To run this portfolio locally:
